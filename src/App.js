@@ -12,7 +12,7 @@ function App() {
   // }
 
   return (
-    <div className="App">
+    <div className="page">
       <header className="App-header">
         <h1>Dev Code Challenge</h1>
         <h2>Rox A Niederkorn: Junior Software Engineer</h2>
