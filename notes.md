@@ -33,5 +33,4 @@ to register newly created app
 ### Disclaimer
 This is a development environment and not intended for production use.
 
-### Client Secret
-0f1b28713a92aee046db6254c8ae4d2b0ceffc33
+
