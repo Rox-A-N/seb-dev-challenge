@@ -1,23 +1,23 @@
-import logo from './logo.svg';
+import React from 'react';
+import Table from './Table';
 import './App.css';
 
 function App() {
+  const GITHUB_API_URL = 'https://api.github.com';
+
+  // const language = prompt("Enter Programming Language");
+  
+  // const handleSubmit = event => {
+  //   event.preventDefault();
+  // }
+
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+        <h1>Dev Code Challenge</h1>
+        <h2>Rox A Niederkorn: Junior Software Engineer</h2>
       </header>
+      <Table />
     </div>
   );
 }
