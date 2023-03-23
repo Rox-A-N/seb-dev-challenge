@@ -16,7 +16,7 @@ This will set up the new React app
 
 -npm start
 Runs the app in the development mode.
-Open http://localhost:3000 to view it in your browser
+Open http://localhost:3000 to view it in your browser.
 We can now preview the app live
 
 ## Registered app with GitHub for OAuth
