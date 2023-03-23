@@ -3,7 +3,6 @@ import Table from './Table';
 import './App.css';
 
 function App() {
-  const GITHUB_API_URL = 'https://api.github.com';
 
   // const language = prompt("Enter Programming Language");
   

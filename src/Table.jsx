@@ -2,7 +2,7 @@ import React, { useEffect } from "react";
 import { useState } from "react";
 
 function Table() {
-    const accessToken = process.env.GITHUB_ACCESS_TOKEN;
+    
     const [language, setLanguage] = useState('');
     const [repos, setRepos] = useState([]);
 
