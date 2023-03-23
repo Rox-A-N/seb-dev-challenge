@@ -19,16 +19,7 @@ Runs the app in the development mode.
 Open http://localhost:3000 to view it in your browser.
 We can now preview the app live
 
-## Registered app with GitHub for OAuth
 
-In GitHub user Settings, select "Developer Settings" > "OAuth Apps" > "New OAuth App"
-to register newly created app
-
-## Install Axios to interact with GitHub API
--npm install Axios
--import Axios into App.js
-
-## 
 
 
 ### Disclaimer
