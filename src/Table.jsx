@@ -6,19 +6,7 @@ function Table() {
     const [language, setLanguage] = useState('');
     const [repos, setRepos] = useState([]);
 
-    useEffect(() => {
-        const fetchData = async() => {
-            const response = await fetch(
-                `https://api.github.com/search/repositories?q=language:${language}&sort=stars&order=desc`,
-                {
-                  headers:{
-                    Authorization: `Bearer ${accessToken}`
-                  }  
-                }
 
-            )
-        }
-    })
 
     const handleSubmit = event => {
         event.preventDefault();
@@ -32,7 +20,7 @@ function Table() {
     return(
         <div>
         <form className="form" onSubmit={handleSubmit}>
-          <label className="label">What Language Do You Choose?
+          <label className="label">What Language Do You Choose?  
             <input className="input"  type="text" 
             value={language}
             onChange={event => setLanguage(event.target.value)} />
